@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T17:56:41Z" name="Default suite" finished-at="2022-08-22T17:57:23Z" duration-ms="42857">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T17:56:41Z" name="Default test" finished-at="2022-08-22T17:57:23Z" duration-ms="42857">
+      <class name="com.Mahakaal.NewTestcase.Donation">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:26:34Z" name="browserSetUp" finished-at="2022-08-22T23:26:41Z" duration-ms="6100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:26:41Z" name="setUpReport" finished-at="2022-08-22T23:26:41Z" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.verify_MoneyDonation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="verify_MoneyDonation()[pri:1, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:26:41Z" name="verify_MoneyDonation" finished-at="2022-08-22T23:27:22Z" duration-ms="40481" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.getText()" because "element1" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "element1" is null
+	at javabase.JavaBase.clickOn(JavaBase.java:260)
+	at com.Mahakaal.pages.DonationPage.Click_submitNowButton(DonationPage.java:150)
+	at com.Mahakaal.NewTestcase.Donation.verify_MoneyDonation(Donation.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_MoneyDonation -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:22Z" name="afterMethod" finished-at="2022-08-22T23:27:22Z" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_MoneyDonation status=FAILURE method=Donation.verify_MoneyDonation()[pri:1, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.verify_MoneyDonation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:22Z" name="setUpReport" finished-at="2022-08-22T23:27:22Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.connectionSetup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="connectionSetup()[pri:2, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:22Z" name="connectionSetup" finished-at="2022-08-22T23:27:23Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectionSetup -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:23Z" name="afterMethod" finished-at="2022-08-22T23:27:23Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=connectionSetup status=SUCCESS method=Donation.connectionSetup()[pri:2, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.connectionSetup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="validateColumValue()[pri:3, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:23Z" name="validateColumValue" finished-at="2022-08-22T23:27:23Z" duration-ms="361" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Ayush] but found [brij]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Ayush] but found [brij]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.Mahakaal.NewTestcase.Donation.validateColumValue(Donation.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColumValue -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:23Z" name="setUpReport" finished-at="2022-08-22T23:27:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.validateColumValue() throws java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:23Z" name="afterMethod" finished-at="2022-08-22T23:27:23Z" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateColumValue status=FAILURE method=Donation.validateColumValue()[pri:3, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.Mahakaal.NewTestcase.Donation.validateColumValue() throws java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUpFlushed()[pri:0, instance:com.Mahakaal.NewTestcase.Donation@ca30bc1]" started-at="2022-08-22T23:27:23Z" name="setUpFlushed" finished-at="2022-08-22T23:27:24Z" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFlushed -->
+      </class> <!-- com.Mahakaal.NewTestcase.Donation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

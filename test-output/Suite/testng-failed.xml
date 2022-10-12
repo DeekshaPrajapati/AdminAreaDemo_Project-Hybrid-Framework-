@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Mahakaal.NewTestcase.BhasamArtiBooking"/>
+      <class name="com.Mahakaal.NewTestcase.Donation"/>
+      <class name="com.Mahakaal.NewTestcase.InformationPageTestCases"/>
+      <class name="com.Mahakaal.NewTestcase.MoneyDonationReceivedTestcases"/>
+      <class name="com.Mahakaal.NewTestcase.AboutTestCases"/>
+      <class name="com.Mahakaal.NewTestcase.HomePageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.Mahakaal.NewTestcase.InformationPageTestCases">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="afterMethod"/>
+          <include name="InformationSubMenu"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.InformationPageTestCases -->
+      <class name="com.Mahakaal.NewTestcase.Donation">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.Donation -->
+      <class name="com.Mahakaal.NewTestcase.AboutTestCases">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="afterMethod"/>
+          <include name="AboutMenuBar"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.AboutTestCases -->
+      <class name="com.Mahakaal.NewTestcase.BhasamArtiBooking">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="Check_BhasamArtiBooking"/>
+          <include name="afterMethod"/>
+          <include name="browserSetUp"/>
+          <include name="setUpFlushed"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.BhasamArtiBooking -->
+      <class name="com.Mahakaal.NewTestcase.MoneyDonationReceivedTestcases">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.MoneyDonationReceivedTestcases -->
+      <class name="com.Mahakaal.NewTestcase.HomePageTestCases">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Mahakaal.NewTestcase.HomePageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
