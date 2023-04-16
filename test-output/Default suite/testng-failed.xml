@@ -3,21 +3,16 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.Mahakaal.NewTestcase.Donation"/>
+      <class name="com.Mahakaal.NewTestcase.Demo"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.Mahakaal.NewTestcase.Donation">
+      <class name="com.Mahakaal.NewTestcase.Demo">
         <methods>
-          <include name="setUpReport"/>
-          <include name="verify_MoneyDonation"/>
-          <include name="afterMethod"/>
-          <include name="validateColumValue"/>
-          <include name="browserSetUp"/>
-          <include name="setUpFlushed"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- com.Mahakaal.NewTestcase.Donation -->
+      </class> <!-- com.Mahakaal.NewTestcase.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
