@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test" verbose="2">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Mahakaal.NewTestcase.Demo"/>
-    </classes>
-  </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="com.Mahakaal.NewTestcase.Demo">
+      <class name="com.adminarea.testcase.LoginPageTestCases">
         <methods>
-          <include name="main"/>
+          <include name="user_validate_dashboardpage"/>
         </methods>
-      </class> <!-- com.Mahakaal.NewTestcase.Demo -->
+      </class> <!-- com.adminarea.testcase.LoginPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
