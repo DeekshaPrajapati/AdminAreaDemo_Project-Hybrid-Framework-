@@ -21,8 +21,8 @@ public class VisitorsDataTable extends JavaBase{
 	{
 		try 
 		{
-			Class.forName("org.postgresql.Driver");
-			connection=DriverManager.getConnection("jdbc:postgresql://159.65.159.235/mahakal_management_dev_db","postgres","&GCaNNku@7YF");
+			Class.forName("");
+			connection=DriverManager.getConnection("");
 			System.out.println("Connection Stablish Done---:" +connection);
 	        }
 	    	 catch (Exception e) {

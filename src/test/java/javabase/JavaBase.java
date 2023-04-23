@@ -85,7 +85,73 @@ public class JavaBase {
 			driver.manage().deleteAllCookies();
 		}
 
-		
+		@BeforeMethod
+		public  void setUpReport(Method method)
+		{
+
+				ExtentReports reports=ExtentManager.getExtentReportsInstance();
+				ExtentTest extentTest=reports.createTest(method.getName());	
+			    Extent.setTest(extentTest);
+		}
+
+		public static String getScreenhot(WebDriver driver, String screenshotName) throws Exception {
+				String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+				TakesScreenshot ts = (TakesScreenshot) driver;
+				File source = ts.getScreenshotAs(OutputType.FILE);
+		             //after execution, you could see a folder "FailedTestsScreenshots" under src folder
+				String destination = System.getProperty("user.dir") + "/reports/"+screenshotName+dateName+".png";
+				File finalDestination = new File(destination);
+				FileUtils.copyFile(source, finalDestination);
+				return destination;
+			}
+
+		@AfterMethod
+		protected void afterMethod(ITestResult result,Method method)
+		{
+			//this.result=result;
+			
+			if(result.getStatus()==ITestResult.FAILURE)
+			{
+				try {
+					 
+					 
+					String screenshotPath = JavaBase.getScreenhot(driver, result.getName());
+					//To add it in the extent report 
+					
+
+			        Extent.getTest().log(Status.FAIL,"Test Case Failed is "+result.getName());
+			        Extent.getTest().fail("Captured Screenshot is below:"+Extent.getTest().addScreenCaptureFromPath(screenshotPath));
+			            		 
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			 
+			}
+			
+			else if(result.getStatus()==ITestResult.SKIP)
+			{
+				Extent.getTest().log(Status.SKIP,"Test Skipped "+result.getThrowable());
+				Extent.getTest().log(Status.SKIP, "Test Case Skipped is "+result.getName());
+				
+			}
+			else
+			{
+				Extent.getTest().log(Status.PASS, result.getName()+  " ->Test Case Passed ");
+			
+			}
+		  }
+
+
+		@AfterSuite
+		public  void setUpFlushed()
+		{
+				ExtentManager.getExtentReportsInstance().flush();
+			
+		}
+			
+		 
+
 		
 	
 		

@@ -22,9 +22,9 @@ public synchronized static ExtentReports getExtentReportsInstance()
 {
 if(reports==null)
 {
-htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\mahakaal.html");   
-htmlReporter.config().setReportName("Mahakaal"); // yeh 17 line main store hoga
-htmlReporter.config().setDocumentTitle("Mahakal Bhasam Arti booking Test Report "); 
+htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\Admin_Area_Demo.html");   
+htmlReporter.config().setReportName("AdminArea"); 
+htmlReporter.config().setDocumentTitle("Admin_Area_Demo_Project"); 
 htmlReporter.config().setTheme(Theme.DARK);
 reports=new ExtentReports(); 
 reports.setSystemInfo("Operating System", "Windows 11");

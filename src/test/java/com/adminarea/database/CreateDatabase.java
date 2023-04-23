@@ -10,8 +10,8 @@ public class CreateDatabase{
 	{
 		try 
 		{
-			Class.forName("org.postgresql.Driver");
-			Connection connection=DriverManager.getConnection("jdbc:postgresql://159.65.159.235/mahakal_management_dev_db","postgres","&GCaNNku@7YF");
+			Class.forName("");
+			Connection connection=DriverManager.getConnection("");
 			System.out.println("Connection Stablish Done" +connection);
 	        java.sql.Statement s=connection.createStatement();
            

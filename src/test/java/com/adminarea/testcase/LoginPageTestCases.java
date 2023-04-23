@@ -9,7 +9,7 @@ import com.adminarea.utility.PropertyReader;
 
 import javabase.JavaBase;
 
-public class LoginPageTestCases    {
+public class LoginPageTestCases extends JavaBase    {
 	
 	public  LoginPage loginpage;
 	public WebDriver driver;
