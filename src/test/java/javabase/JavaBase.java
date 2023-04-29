@@ -3,6 +3,8 @@ package javabase;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -38,6 +40,7 @@ public class JavaBase {
 	public static String browzersave;
 	public static JavascriptExecutor js;
 	public static SoftAssert soft;
+	
 	
 	
 	// singleton
@@ -162,13 +165,13 @@ public class JavaBase {
 
 		}
 
-		// click
+		// click 
 		public static void clickOn(WebElement element, int timeout) {
 			WebElement	element_withWait = new WebDriverWait(driver,timeout).until(ExpectedConditions.elementToBeClickable(element));
 			element_withWait.click();
        }
 		
-		
+		// Validate Url by using soft assert
 		public static void validateUrl(String expectUrl) {
 			String saveCurrentUrl = driver.getCurrentUrl();
 			System.out.println("print expectUrl ----> " + expectUrl);
@@ -177,4 +180,27 @@ public class JavaBase {
 			soft.assertAll();
 
 		}
+		
+		public static void validateTitle(String expectTitle) {
+			String savetitle = driver.getTitle();
+			System.out.println(savetitle);
+			soft.assertEquals(savetitle, expectTitle, "actual and expect title is not matched");
+			soft.assertAll();
+		}
+		
+		// click with java excuter
+		public static void clickBy_javaExcutu(WebElement element ,int timeout) {
+			 WebElement element_withWait = new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));             
+		    	 JavascriptExecutor executor = (JavascriptExecutor)driver;	    	
+		    	 executor.executeScript("arguments[0].click();", element_withWait);
+			}
+		
+		 public static void scrollDown(int position) {
+				js = (JavascriptExecutor) driver;
+				// js.executeScript("window.scrollBy(0,200)");
+				js.executeScript("window.scrollBy(0,'" + position + "')");
+
+			}
+		 
+		
 }

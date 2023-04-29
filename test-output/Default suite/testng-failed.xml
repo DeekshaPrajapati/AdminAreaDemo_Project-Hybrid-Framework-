@@ -5,7 +5,10 @@
     <classes>
       <class name="com.adminarea.testcase.LoginPageTestCases">
         <methods>
+          <include name="afterMethod"/>
           <include name="user_validate_dashboardpage"/>
+          <include name="setUpFlushed"/>
+          <include name="setUpReport"/>
         </methods>
       </class> <!-- com.adminarea.testcase.LoginPageTestCases -->
     </classes>

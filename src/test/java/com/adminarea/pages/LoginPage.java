@@ -14,7 +14,7 @@ public class LoginPage {
 	
 	
 	@FindBy(xpath = "//input[@id='Email']")
-	WebElement Email;
+	WebElement EmailAdd;
 
 	@FindBy(xpath = "//input[@id='Password']")
 	WebElement Password;
@@ -32,14 +32,14 @@ public class LoginPage {
 	
 	
 	public void enter_emailid() {
-		Email.clear();
-		JavaBase.sendkeys(Email, 0, PropertyReader.getDataProperty("EmailID"));
+		EmailAdd.clear();
+		JavaBase.sendkeys(EmailAdd, 0, PropertyReader.getDataProperty("EmailID"));
 	}
 	
 	
      public void enter_password() {
 		Password.clear();
-		JavaBase.sendkeys(Password, 0, PropertyReader.getDataProperty("password"));
+		JavaBase.sendkeys(Password, 0, PropertyReader.getDataProperty("passw"));
 	}
      
      public void clickon_loginButton() {

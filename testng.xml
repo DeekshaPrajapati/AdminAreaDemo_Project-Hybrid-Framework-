@@ -4,12 +4,9 @@
 
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Mahakaal.NewTestcase.BhasamArtiBooking"/>
-      <class name="com.Mahakaal.NewTestcase.Donation"/>
-     <class name="com.Mahakaal.NewTestcase.InformationPageTestCases"/>
-     <class name="com.Mahakaal.NewTestcase.MoneyDonationReceivedTestcases"/>
-     <class name="com.Mahakaal.NewTestcase.AboutTestCases"/>
-     <class name="com.Mahakaal.NewTestcase.HomePageTestCases"/>
+      <class name="com.adminarea.testcase.LoginPageTestCases"/>
+      <class name="com.adminarea.testcase.AddNewCustomerTestCases"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
