@@ -1,13 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="24" passed="21" failed="2" skipped="0">
+<testng-results ignored="2" total="30" passed="26" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-30T00:56:52 IST" name="Suite" finished-at="2023-04-30T00:57:19 IST" duration-ms="27617">
+  <suite started-at="2023-04-30T22:48:55 IST" name="Suite" finished-at="2023-04-30T22:49:33 IST" duration-ms="37295">
     <groups>
     </groups>
-    <test started-at="2023-04-30T00:56:52 IST" name="Test" finished-at="2023-04-30T00:57:19 IST" duration-ms="27617">
+    <test started-at="2023-04-30T22:48:55 IST" name="Test" finished-at="2023-04-30T22:49:33 IST" duration-ms="37295">
+      <class name="com.datadriven.testing.LoginDataTestCases">
+        <test-method signature="startApplication()[pri:1, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:24 IST" name="startApplication" finished-at="2023-04-30T22:49:25 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:24 IST" name="setUpReport" finished-at="2023-04-30T22:49:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.startApplication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:25 IST" name="afterMethod" finished-at="2023-04-30T22:49:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startApplication status=SUCCESS method=LoginDataTestCases.startApplication()[pri:1, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.startApplication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:28 IST" name="login" data-provider="LoginData" finished-at="2023-04-30T22:49:29 IST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:28 IST" name="setUpReport" finished-at="2023-04-30T22:49:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:29 IST" name="setUpReport" finished-at="2023-04-30T22:49:29 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:29 IST" name="afterMethod" finished-at="2023-04-30T22:49:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginDataTestCases.login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:29 IST" name="login" data-provider="LoginData" finished-at="2023-04-30T22:49:30 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="afterMethod" finished-at="2023-04-30T22:49:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginDataTestCases.login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="setUpReport" finished-at="2023-04-30T22:49:30 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="login" data-provider="LoginData" finished-at="2023-04-30T22:49:30 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="afterMethod" finished-at="2023-04-30T22:49:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginDataTestCases.login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="login" data-provider="LoginData" finished-at="2023-04-30T22:49:33 IST" duration-ms="2506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:30 IST" name="setUpReport" finished-at="2023-04-30T22:49:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e]" started-at="2023-04-30T22:49:33 IST" name="afterMethod" finished-at="2023-04-30T22:49:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginDataTestCases.login(java.lang.String,java.lang.String)[pri:2, instance:com.datadriven.testing.LoginDataTestCases@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.datadriven.testing.LoginDataTestCases.login(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.datadriven.testing.LoginDataTestCases -->
       <class name="com.adminarea.testcase.LoginPageTestCases">
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:56:52 IST" name="setUpReport" finished-at="2023-04-30T00:56:53 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:48:55 IST" name="setUpReport" finished-at="2023-04-30T22:48:56 IST" duration-ms="550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +223,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="openBrow()[pri:1, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:56:53 IST" name="openBrow" finished-at="2023-04-30T00:56:58 IST" duration-ms="5091" status="PASS">
+        <test-method signature="openBrow()[pri:1, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:48:56 IST" name="openBrow" finished-at="2023-04-30T22:49:00 IST" duration-ms="3529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrow -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:56:58 IST" name="afterMethod" finished-at="2023-04-30T00:56:58 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:00 IST" name="afterMethod" finished-at="2023-04-30T22:49:00 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=openBrow status=SUCCESS method=LoginPageTestCases.openBrow()[pri:1, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=openBrow status=SUCCESS method=LoginPageTestCases.openBrow()[pri:1, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -38,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:56:58 IST" name="setUpReport" finished-at="2023-04-30T00:56:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:00 IST" name="setUpReport" finished-at="2023-04-30T22:49:00 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,15 +254,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="user_open_url()[pri:2, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:56:58 IST" name="user_open_url" finished-at="2023-04-30T00:57:00 IST" duration-ms="2009" status="PASS">
+        <test-method signature="user_open_url()[pri:2, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:00 IST" name="user_open_url" finished-at="2023-04-30T22:49:03 IST" duration-ms="3006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_open_url -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="afterMethod" finished-at="2023-04-30T00:57:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="afterMethod" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=user_open_url status=SUCCESS method=LoginPageTestCases.user_open_url()[pri:2, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=user_open_url status=SUCCESS method=LoginPageTestCases.user_open_url()[pri:2, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -69,26 +274,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="user_enter_email()[pri:3, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="user_enter_email" finished-at="2023-04-30T00:57:00 IST" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="setUpReport" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.LoginPageTestCases.user_enter_email()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="user_enter_email()[pri:3, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="user_enter_email" finished-at="2023-04-30T22:49:03 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_enter_email -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="setUpReport" finished-at="2023-04-30T00:57:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="afterMethod" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.LoginPageTestCases.user_enter_email()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="afterMethod" finished-at="2023-04-30T00:57:00 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=user_enter_email status=SUCCESS method=LoginPageTestCases.user_enter_email()[pri:3, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=user_enter_email status=SUCCESS method=LoginPageTestCases.user_enter_email()[pri:3, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -100,7 +305,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="setUpReport" finished-at="2023-04-30T00:57:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="setUpReport" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,15 +316,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="user_enter_password()[pri:4, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:00 IST" name="user_enter_password" finished-at="2023-04-30T00:57:01 IST" duration-ms="422" status="PASS">
+        <test-method signature="user_enter_password()[pri:4, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="user_enter_password" finished-at="2023-04-30T22:49:03 IST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_enter_password -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:01 IST" name="afterMethod" finished-at="2023-04-30T00:57:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="afterMethod" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=user_enter_password status=SUCCESS method=LoginPageTestCases.user_enter_password()[pri:4, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=user_enter_password status=SUCCESS method=LoginPageTestCases.user_enter_password()[pri:4, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -131,7 +336,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:01 IST" name="setUpReport" finished-at="2023-04-30T00:57:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="setUpReport" finished-at="2023-04-30T22:49:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,15 +347,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="user_clickon_loginbutton()[pri:5, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:01 IST" name="user_clickon_loginbutton" finished-at="2023-04-30T00:57:06 IST" duration-ms="5331" status="PASS">
+        <test-method signature="user_clickon_loginbutton()[pri:5, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:03 IST" name="user_clickon_loginbutton" finished-at="2023-04-30T22:49:10 IST" duration-ms="6343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clickon_loginbutton -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:06 IST" name="afterMethod" finished-at="2023-04-30T00:57:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:10 IST" name="afterMethod" finished-at="2023-04-30T22:49:10 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=user_clickon_loginbutton status=SUCCESS method=LoginPageTestCases.user_clickon_loginbutton()[pri:5, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=user_clickon_loginbutton status=SUCCESS method=LoginPageTestCases.user_clickon_loginbutton()[pri:5, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -162,7 +367,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:06 IST" name="setUpReport" finished-at="2023-04-30T00:57:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="user_validate_dashboardpage()[pri:6, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:10 IST" name="user_validate_dashboardpage" finished-at="2023-04-30T22:49:10 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_validate_dashboardpage -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:10 IST" name="setUpReport" finished-at="2023-04-30T22:49:10 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,15 +382,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="user_validate_dashboardpage()[pri:6, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:06 IST" name="user_validate_dashboardpage" finished-at="2023-04-30T00:57:06 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user_validate_dashboardpage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:06 IST" name="afterMethod" finished-at="2023-04-30T00:57:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:10 IST" name="afterMethod" finished-at="2023-04-30T22:49:10 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=user_validate_dashboardpage status=SUCCESS method=LoginPageTestCases.user_validate_dashboardpage()[pri:6, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155] output={null}]]]>
+                <![CDATA[[TestResult name=user_validate_dashboardpage status=SUCCESS method=LoginPageTestCases.user_validate_dashboardpage()[pri:6, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -193,47 +398,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpFlushed()[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@2e6a8155]" started-at="2023-04-30T00:57:19 IST" name="setUpFlushed" finished-at="2023-04-30T00:57:20 IST" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="setUpFlushed()[pri:0, instance:com.adminarea.testcase.LoginPageTestCases@6574a52c]" started-at="2023-04-30T22:49:33 IST" name="setUpFlushed" finished-at="2023-04-30T22:49:33 IST" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpFlushed -->
       </class> <!-- com.adminarea.testcase.LoginPageTestCases -->
       <class name="com.adminarea.testcase.AddNewCustomerTestCases">
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:06 IST" name="setUpReport" finished-at="2023-04-30T00:57:06 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.ClickCustomerMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method signature="ClickCustomerMenu()[pri:1, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:06 IST" name="ClickCustomerMenu" finished-at="2023-04-30T00:57:08 IST" duration-ms="2125" status="PASS">
+        <test-method signature="ClickCustomerMenu()[pri:1, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:10 IST" name="ClickCustomerMenu" finished-at="2023-04-30T22:49:12 IST" duration-ms="2275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickCustomerMenu -->
-        <test-method signature="ClickOnCustomerMenuItem()[pri:2, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:08 IST" name="ClickOnCustomerMenuItem" finished-at="2023-04-30T00:57:10 IST" duration-ms="2080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnCustomerMenuItem -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:08 IST" name="setUpReport" finished-at="2023-04-30T00:57:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:10 IST" name="setUpReport" finished-at="2023-04-30T22:49:10 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.ClickOnCustomerMenuItem()]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.ClickCustomerMenu()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:08 IST" name="afterMethod" finished-at="2023-04-30T00:57:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:12 IST" name="afterMethod" finished-at="2023-04-30T22:49:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickCustomerMenu status=SUCCESS method=AddNewCustomerTestCases.ClickCustomerMenu()[pri:1, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=ClickCustomerMenu status=SUCCESS method=AddNewCustomerTestCases.ClickCustomerMenu()[pri:1, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -245,26 +435,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="UserClickOn_AddNewButton()[pri:3, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:10 IST" name="UserClickOn_AddNewButton" finished-at="2023-04-30T00:57:13 IST" duration-ms="2383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserClickOn_AddNewButton -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:10 IST" name="setUpReport" finished-at="2023-04-30T00:57:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:12 IST" name="setUpReport" finished-at="2023-04-30T22:49:12 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserClickOn_AddNewButton()]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.ClickOnCustomerMenuItem()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:10 IST" name="afterMethod" finished-at="2023-04-30T00:57:10 IST" duration-ms="0" status="PASS">
+        <test-method signature="ClickOnCustomerMenuItem()[pri:2, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:12 IST" name="ClickOnCustomerMenuItem" finished-at="2023-04-30T22:49:14 IST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCustomerMenuItem -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:14 IST" name="afterMethod" finished-at="2023-04-30T22:49:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnCustomerMenuItem status=SUCCESS method=AddNewCustomerTestCases.ClickOnCustomerMenuItem()[pri:2, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnCustomerMenuItem status=SUCCESS method=AddNewCustomerTestCases.ClickOnCustomerMenuItem()[pri:2, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -276,11 +466,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="afterMethod" finished-at="2023-04-30T00:57:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="UserClickOn_AddNewButton()[pri:3, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:14 IST" name="UserClickOn_AddNewButton" finished-at="2023-04-30T22:49:17 IST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserClickOn_AddNewButton -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:14 IST" name="setUpReport" finished-at="2023-04-30T22:49:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserClickOn_AddNewButton status=SUCCESS method=AddNewCustomerTestCases.UserClickOn_AddNewButton()[pri:3, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserClickOn_AddNewButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="setUpReport" finished-at="2023-04-30T22:49:17 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.validate_user_can_view_add_new_customer_page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="afterMethod" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserClickOn_AddNewButton status=SUCCESS method=AddNewCustomerTestCases.UserClickOn_AddNewButton()[pri:3, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -292,26 +508,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="validate_user_can_view_add_new_customer_page()[pri:4, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="validate_user_can_view_add_new_customer_page" finished-at="2023-04-30T00:57:13 IST" duration-ms="40" status="PASS">
+        <test-method signature="validate_user_can_view_add_new_customer_page()[pri:4, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="validate_user_can_view_add_new_customer_page" finished-at="2023-04-30T22:49:17 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_user_can_view_add_new_customer_page -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="setUpReport" finished-at="2023-04-30T00:57:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="afterMethod" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.validate_user_can_view_add_new_customer_page()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="afterMethod" finished-at="2023-04-30T00:57:13 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validate_user_can_view_add_new_customer_page status=SUCCESS method=AddNewCustomerTestCases.validate_user_can_view_add_new_customer_page()[pri:4, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=validate_user_can_view_add_new_customer_page status=SUCCESS method=AddNewCustomerTestCases.validate_user_can_view_add_new_customer_page()[pri:4, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -323,30 +528,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="setUpReport" finished-at="2023-04-30T00:57:13 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterEmail()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method signature="User_EnterEmail()[pri:5, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="User_EnterEmail" finished-at="2023-04-30T00:57:13 IST" duration-ms="286" status="PASS">
+        <test-method signature="User_EnterEmail()[pri:5, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="User_EnterEmail" finished-at="2023-04-30T22:49:17 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_EnterEmail -->
-        <test-method signature="User_EnterPassword()[pri:6, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="User_EnterPassword" finished-at="2023-04-30T00:57:14 IST" duration-ms="720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_EnterPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="afterMethod" finished-at="2023-04-30T00:57:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="setUpReport" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=User_EnterEmail status=SUCCESS method=AddNewCustomerTestCases.User_EnterEmail()[pri:5, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="setUpReport" finished-at="2023-04-30T22:49:17 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="afterMethod" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_EnterEmail status=SUCCESS method=AddNewCustomerTestCases.User_EnterEmail()[pri:5, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -358,22 +570,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:13 IST" name="setUpReport" finished-at="2023-04-30T00:57:13 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterPassword()]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="User_EnterPassword()[pri:6, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="User_EnterPassword" finished-at="2023-04-30T22:49:17 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="afterMethod" finished-at="2023-04-30T00:57:14 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- User_EnterPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="afterMethod" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=User_EnterPassword status=SUCCESS method=AddNewCustomerTestCases.User_EnterPassword()[pri:6, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=User_EnterPassword status=SUCCESS method=AddNewCustomerTestCases.User_EnterPassword()[pri:6, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -385,30 +590,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="setUpReport" finished-at="2023-04-30T00:57:14 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterFirstName()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method signature="User_EnterFirstName()[pri:7, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="User_EnterFirstName" finished-at="2023-04-30T00:57:14 IST" duration-ms="324" status="PASS">
+        <test-method signature="User_EnterFirstName()[pri:7, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="User_EnterFirstName" finished-at="2023-04-30T22:49:17 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_EnterFirstName -->
-        <test-method signature="User_EnterLastName()[pri:8, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="User_EnterLastName" finished-at="2023-04-30T00:57:15 IST" duration-ms="347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_EnterLastName -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="afterMethod" finished-at="2023-04-30T00:57:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="setUpReport" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=User_EnterFirstName status=SUCCESS method=AddNewCustomerTestCases.User_EnterFirstName()[pri:7, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="User_EnterLastName()[pri:8, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="User_EnterLastName" finished-at="2023-04-30T22:49:18 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_EnterLastName -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="setUpReport" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:17 IST" name="afterMethod" finished-at="2023-04-30T22:49:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_EnterFirstName status=SUCCESS method=AddNewCustomerTestCases.User_EnterFirstName()[pri:7, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -420,22 +636,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:14 IST" name="setUpReport" finished-at="2023-04-30T00:57:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="afterMethod" finished-at="2023-04-30T22:49:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterLastName()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="afterMethod" finished-at="2023-04-30T00:57:15 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=User_EnterLastName status=SUCCESS method=AddNewCustomerTestCases.User_EnterLastName()[pri:8, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=User_EnterLastName status=SUCCESS method=AddNewCustomerTestCases.User_EnterLastName()[pri:8, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -447,7 +652,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="setUpReport" finished-at="2023-04-30T00:57:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="setUpReport" finished-at="2023-04-30T22:49:18 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -458,19 +663,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="Select_Gender()[pri:9, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="Select_Gender" finished-at="2023-04-30T00:57:15 IST" duration-ms="317" status="PASS">
+        <test-method signature="Select_Gender()[pri:9, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="Select_Gender" finished-at="2023-04-30T22:49:18 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Gender -->
-        <test-method signature="User_EnterDOB()[pri:10, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="User_EnterDOB" finished-at="2023-04-30T00:57:15 IST" duration-ms="428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_EnterDOB -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="afterMethod" finished-at="2023-04-30T00:57:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="setUpReport" finished-at="2023-04-30T22:49:18 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Select_Gender status=SUCCESS method=AddNewCustomerTestCases.Select_Gender()[pri:9, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterDOB()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="afterMethod" finished-at="2023-04-30T22:49:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Select_Gender status=SUCCESS method=AddNewCustomerTestCases.Select_Gender()[pri:9, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -482,26 +694,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="setUpReport" finished-at="2023-04-30T00:57:15 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_EnterDOB()]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="User_EnterDOB()[pri:10, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="User_EnterDOB" finished-at="2023-04-30T22:49:18 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method signature="User_Enter_CompanyName()[pri:11, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="User_Enter_CompanyName" finished-at="2023-04-30T00:57:16 IST" duration-ms="472" status="PASS">
+        </test-method> <!-- User_EnterDOB -->
+        <test-method signature="User_Enter_CompanyName()[pri:11, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="User_Enter_CompanyName" finished-at="2023-04-30T22:49:19 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_Enter_CompanyName -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="afterMethod" finished-at="2023-04-30T00:57:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="afterMethod" finished-at="2023-04-30T22:49:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=User_EnterDOB status=SUCCESS method=AddNewCustomerTestCases.User_EnterDOB()[pri:10, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=User_EnterDOB status=SUCCESS method=AddNewCustomerTestCases.User_EnterDOB()[pri:10, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -513,7 +718,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:15 IST" name="setUpReport" finished-at="2023-04-30T00:57:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:18 IST" name="setUpReport" finished-at="2023-04-30T22:49:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -524,7 +729,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="UserSelect_CustomerRole()[pri:12, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="UserSelect_CustomerRole" finished-at="2023-04-30T00:57:16 IST" duration-ms="262" status="FAIL">
+        <test-method signature="UserSelect_CustomerRole()[pri:12, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="UserSelect_CustomerRole" finished-at="2023-04-30T22:49:19 IST" duration-ms="256" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -532,8 +737,8 @@
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-IVTN6H0', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37308c5ef3dfcc992af3abff330ba7c8]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf58e950e6176c25c66ec69b549be10]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -541,8 +746,8 @@ Session ID: 37308c5ef3dfcc992af3abff330ba7c8]]>
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-IVTN6H0', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:58442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37308c5ef3dfcc992af3abff330ba7c8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf58e950e6176c25c66ec69b549be10
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -561,10 +766,10 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
 at javabase.JavaBase.sendkeys(JavaBase.java:164)
-at com.adminarea.pages.AddNewCustomerPage.Select_CustomerRole(AddNewCustomerPage.java:146)
-at com.adminarea.testcase.AddNewCustomerTestCases.UserSelect_CustomerRole(AddNewCustomerTestCases.java:114)
+at com.adminarea.pages.AddNewCustomerPage.Select_CustomerRole(AddNewCustomerPage.java:150)
+at com.adminarea.testcase.AddNewCustomerTestCases.UserSelect_CustomerRole(AddNewCustomerTestCases.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -599,11 +804,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserSelect_CustomerRole -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="afterMethod" finished-at="2023-04-30T00:57:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="setUpReport" finished-at="2023-04-30T22:49:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=User_Enter_CompanyName status=SUCCESS method=AddNewCustomerTestCases.User_Enter_CompanyName()[pri:11, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserSelect_CustomerRole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="afterMethod" finished-at="2023-04-30T22:49:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_Enter_CompanyName status=SUCCESS method=AddNewCustomerTestCases.User_Enter_CompanyName()[pri:11, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -615,22 +831,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="setUpReport" finished-at="2023-04-30T00:57:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="afterMethod" finished-at="2023-04-30T22:49:19 IST" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserSelect_CustomerRole()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="afterMethod" finished-at="2023-04-30T00:57:16 IST" duration-ms="456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserSelect_CustomerRole status=FAILURE method=AddNewCustomerTestCases.UserSelect_CustomerRole()[pri:12, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=UserSelect_CustomerRole status=FAILURE method=AddNewCustomerTestCases.UserSelect_CustomerRole()[pri:12, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -642,11 +847,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="UserScroll_Page()[pri:13, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="UserScroll_Page" finished-at="2023-04-30T00:57:17 IST" duration-ms="29" status="PASS">
+        <test-method signature="UserScroll_Page()[pri:13, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="UserScroll_Page" finished-at="2023-04-30T22:49:19 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserScroll_Page -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:16 IST" name="setUpReport" finished-at="2023-04-30T00:57:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="setUpReport" finished-at="2023-04-30T22:49:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -657,11 +862,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="afterMethod" finished-at="2023-04-30T00:57:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="afterMethod" finished-at="2023-04-30T22:49:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserScroll_Page status=SUCCESS method=AddNewCustomerTestCases.UserScroll_Page()[pri:13, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=UserScroll_Page status=SUCCESS method=AddNewCustomerTestCases.UserScroll_Page()[pri:13, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -673,30 +878,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="setUpReport" finished-at="2023-04-30T00:57:17 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserEnter_AdminComment()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method signature="UserEnter_AdminComment()[pri:14, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="UserEnter_AdminComment" finished-at="2023-04-30T00:57:17 IST" duration-ms="298" status="PASS">
+        <test-method signature="UserEnter_AdminComment()[pri:14, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="UserEnter_AdminComment" finished-at="2023-04-30T22:49:20 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserEnter_AdminComment -->
-        <test-method signature="UserClick_OnSaveButton()[pri:15, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="UserClick_OnSaveButton" finished-at="2023-04-30T00:57:19 IST" duration-ms="2179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserClick_OnSaveButton -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="afterMethod" finished-at="2023-04-30T00:57:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:19 IST" name="setUpReport" finished-at="2023-04-30T22:49:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserEnter_AdminComment status=SUCCESS method=AddNewCustomerTestCases.UserEnter_AdminComment()[pri:14, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserEnter_AdminComment()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="UserClick_OnSaveButton()[pri:15, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:20 IST" name="UserClick_OnSaveButton" finished-at="2023-04-30T22:49:22 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserClick_OnSaveButton -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:20 IST" name="afterMethod" finished-at="2023-04-30T22:49:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserEnter_AdminComment status=SUCCESS method=AddNewCustomerTestCases.UserEnter_AdminComment()[pri:14, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -708,7 +913,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:17 IST" name="setUpReport" finished-at="2023-04-30T00:57:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:20 IST" name="setUpReport" finished-at="2023-04-30T22:49:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -719,23 +924,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:19 IST" name="afterMethod" finished-at="2023-04-30T00:57:19 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserClick_OnSaveButton status=SUCCESS method=AddNewCustomerTestCases.UserClick_OnSaveButton()[pri:15, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserClick_OnSaveButton()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="user_can_view_confirmation_message(java.lang.String)[pri:16, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:19 IST" name="user_can_view_confirmation_message" finished-at="2023-04-30T00:57:19 IST" duration-ms="0" status="FAIL">
+        <test-method signature="user_can_view_confirmation_message(java.lang.String)[pri:16, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:22 IST" name="user_can_view_confirmation_message" finished-at="2023-04-30T22:49:22 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -779,31 +968,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_can_view_confirmation_message -->
-        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:19 IST" name="setUpReport" finished-at="2023-04-30T00:57:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:22 IST" name="afterMethod" finished-at="2023-04-30T22:49:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.DataBase_ConnectionSetup()]]>
+                <![CDATA[[TestResult name=UserClick_OnSaveButton status=SUCCESS method=AddNewCustomerTestCases.UserClick_OnSaveButton()[pri:15, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.UserClick_OnSaveButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="User_ClickOn_LogoutBtn()[pri:18, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:22 IST" name="User_ClickOn_LogoutBtn" finished-at="2023-04-30T22:49:24 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_ClickOn_LogoutBtn -->
+        <test-method is-config="true" signature="setUpReport(java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:22 IST" name="setUpReport" finished-at="2023-04-30T22:49:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_ClickOn_LogoutBtn()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="DataBase_ConnectionSetup()[pri:17, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:19 IST" name="DataBase_ConnectionSetup" finished-at="2023-04-30T00:57:19 IST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataBase_ConnectionSetup -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c]" started-at="2023-04-30T00:57:19 IST" name="afterMethod" finished-at="2023-04-30T00:57:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc]" started-at="2023-04-30T22:49:24 IST" name="afterMethod" finished-at="2023-04-30T22:49:24 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DataBase_ConnectionSetup status=SUCCESS method=AddNewCustomerTestCases.DataBase_ConnectionSetup()[pri:17, instance:com.adminarea.testcase.AddNewCustomerTestCases@5677323c] output={null}]]]>
+                <![CDATA[[TestResult name=User_ClickOn_LogoutBtn status=SUCCESS method=AddNewCustomerTestCases.User_ClickOn_LogoutBtn()[pri:18, instance:com.adminarea.testcase.AddNewCustomerTestCases@55a147cc] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.DataBase_ConnectionSetup()]]>
+                <![CDATA[public void com.adminarea.testcase.AddNewCustomerTestCases.User_ClickOn_LogoutBtn()]]>
               </value>
             </param>
           </params>

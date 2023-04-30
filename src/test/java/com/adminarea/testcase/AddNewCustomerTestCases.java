@@ -28,7 +28,7 @@ public class AddNewCustomerTestCases extends JavaBase {
 	
 	@Test(priority=1)
 	 public void ClickCustomerMenu() {
-		
+		Extent.getTest().log(Status.INFO,"User click on customer menu button");
 		driver=JavaBase.getDriver(); 
 		addcustomer = PageFactory.initElements(driver, AddNewCustomerPage.class);
 	 
@@ -39,12 +39,14 @@ public class AddNewCustomerTestCases extends JavaBase {
 }
 	@Test(priority=2)
 	public void ClickOnCustomerMenuItem() {
+		Extent.getTest().log(Status.INFO,"User click on customer menu item");
 		addcustomer.ClickOn_CustomerMenuItem();
 		
 	}
 	
 	@Test(priority=3)
 	public void UserClickOn_AddNewButton() {
+		Extent.getTest().log(Status.INFO,"User click on add new button");
 		addcustomer.clickOn_AddNewButton();
 	}
 	
@@ -70,69 +72,73 @@ public class AddNewCustomerTestCases extends JavaBase {
 	
 	@Test(priority=5)
 	public void User_EnterEmail() {
-		
+		Extent.getTest().log(Status.INFO,"User enter email address");
 		addcustomer.Enter_Email();
 	}
 	
 	@Test(priority=6)
      public void User_EnterPassword() {
-		
+		Extent.getTest().log(Status.INFO,"User enter password");
 		addcustomer.Enter_Password();
 	}
 	
 	@Test(priority=7)
 	public void User_EnterFirstName() {
-		
+		Extent.getTest().log(Status.INFO,"User enter first name");
 		addcustomer.Enter_FirstName();
 	}
 	
 	@Test(priority=8)
 	public void User_EnterLastName() {
-		
+		Extent.getTest().log(Status.INFO,"User enter last name");
 		addcustomer.Enter_LastName();
 	}
 	
 	@Test(priority=9)
 	public void Select_Gender() {
-		
+		Extent.getTest().log(Status.INFO,"User choose a gender");
 		addcustomer.select_gender();
 	}
 	
 	@Test(priority=10)
 	public void User_EnterDOB() {
+		Extent.getTest().log(Status.INFO,"User enter date of birth");
 		addcustomer.Enter_DOB();
 	}
 	
 	@Test(priority=11)
 	public void User_Enter_CompanyName() {
-		
+		Extent.getTest().log(Status.INFO,"User enter company name");
 		addcustomer.Enter_CompanyName();
 	}
 	
 	@Test(priority=12)
 	public void UserSelect_CustomerRole() {
+		Extent.getTest().log(Status.INFO,"User select customer role");
 		addcustomer.Select_CustomerRole();
 	}
 	
 	@Test(priority=13)
 	public void UserScroll_Page() {
-		
+		Extent.getTest().log(Status.INFO,"User scrolling a page from top to bottom");
 		addcustomer.Scroll_BarDown();
 	}
 	
 	@Test(priority=14)
 	public void UserEnter_AdminComment() {
+		Extent.getTest().log(Status.INFO,"User descrive a admin content");
 		addcustomer.Enter_AdminComment();
 	}
 	
 	@Test(priority=15)
 	public void UserClick_OnSaveButton() {
+		Extent.getTest().log(Status.INFO,"User click on save button");
 		addcustomer.ClickOnSave_Button();
 	}
 
 	@Test(priority=16)
 	public void user_can_view_confirmation_message(String exptectedConfirmationMsg) {
-
+		
 		String bodyTagText = driver.findElement(By.tagName("Body")).getText();
 		if(bodyTagText.contains(exptectedConfirmationMsg))
 		{
@@ -151,20 +157,25 @@ public class AddNewCustomerTestCases extends JavaBase {
 
 }
 	
-	@Test(priority=17)
-	public void DataBase_ConnectionSetup()
-	{
-		try 
-		{
-			Class.forName("com.mysql.jdbc.Driver");
-  		    connection =DriverManager.getConnection(PropertyReader.getConfigProperty("DB_URL"),PropertyReader.getConfigProperty("DB_USER"),PropertyReader.getConfigProperty("DB_PASS"));
-			System.out.println("Connection Stablish Done---:" +connection);
-			 Extent.getTest().log(Status.PASS,"Connection Stablish Success --> "+connection+"Step Passed");
-	        }
-	    	 catch (Exception e) {
-				 e.printStackTrace();
-			}
-	    	 }
+//	@Test(priority=17)
+//	public void DataBase_ConnectionSetup()
+//	{
+//		try 
+//		{
+//			Class.forName("com.mysql.jdbc.Driver");
+//  		    connection =DriverManager.getConnection(PropertyReader.getConfigProperty("DB_URL"),PropertyReader.getConfigProperty("DB_USER"),PropertyReader.getConfigProperty("DB_PASS"));
+//			System.out.println("Connection Stablish Done---:" +connection);
+//			 Extent.getTest().log(Status.PASS,"Connection Stablish Success --> "+connection+"Step Passed");
+//	        }
+//	    	 catch (Exception e) {
+//				 e.printStackTrace();
+//			}
+//	    	 }
+	
+	@Test(priority=18)
+	public void User_ClickOn_LogoutBtn() {
+		addcustomer.ClickOnLogout_Button();
+	}
 	
 //	@Test(priority=18)
 //	public void validateColumValue() throws SQLException

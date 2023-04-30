@@ -126,7 +126,7 @@ public class JavaBase {
 			        Extent.getTest().fail("Captured Screenshot is below:"+Extent.getTest().addScreenCaptureFromPath(screenshotPath));
 			            		 
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			 
@@ -181,6 +181,7 @@ public class JavaBase {
 
 		}
 		
+		// Validating a title by using soft assert
 		public static void validateTitle(String expectTitle) {
 			String savetitle = driver.getTitle();
 			System.out.println(savetitle);
@@ -195,6 +196,7 @@ public class JavaBase {
 		    	 executor.executeScript("arguments[0].click();", element_withWait);
 			}
 		
+		// Scrolling a page by using java executer
 		 public static void scrollDown(int position) {
 				js = (JavascriptExecutor) driver;
 				// js.executeScript("window.scrollBy(0,200)");

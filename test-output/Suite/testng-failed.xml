@@ -5,8 +5,8 @@
     <classes>
       <class name="com.adminarea.testcase.AddNewCustomerTestCases">
         <methods>
-          <include name="afterMethod"/>
           <include name="setUpFlushed"/>
+          <include name="afterMethod"/>
           <include name="UserSelect_CustomerRole"/>
           <include name="user_can_view_confirmation_message"/>
           <include name="setUpReport"/>

@@ -1,4 +1,4 @@
-package WithoutPageObjectModelDataDrivenTesting;
+package com.datadriven.testing;
 
 public class TestExcel {
 	

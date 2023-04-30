@@ -4,8 +4,11 @@
 
   <test thread-count="5" name="Test">
     <classes>
+      
       <class name="com.adminarea.testcase.LoginPageTestCases"/>
       <class name="com.adminarea.testcase.AddNewCustomerTestCases"/>
+      <class name="com.datadriven.testing.LoginDataTestCases"/>
+      
     
     </classes>
   </test> <!-- Test -->

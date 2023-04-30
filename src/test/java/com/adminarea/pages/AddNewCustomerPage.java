@@ -83,6 +83,10 @@ public class AddNewCustomerPage {
 	@FindBy(xpath = "//button[@name='save']")
 	WebElement btnSave;
 	
+	@FindBy(xpath = "//a[text()='Logout']")
+	WebElement logoutBtn;
+	
+	
 	
 	 public AddNewCustomerPage(WebDriver driver){
 	     this.driver=driver;
@@ -156,6 +160,10 @@ public class AddNewCustomerPage {
 	
 	public void ClickOnSave_Button() {
 		JavaBase.clickOn(btnSave, 0);
+	}
+	
+	public void ClickOnLogout_Button() {
+		JavaBase.clickOn(logoutBtn, 0);
 	}
 
 }

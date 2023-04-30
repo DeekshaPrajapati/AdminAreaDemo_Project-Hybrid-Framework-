@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.adminarea.testcase.LoginPageTestCases">
+      <class name="com.datadriven.testing.LoginDataTestCases">
         <methods>
-          <include name="afterMethod"/>
-          <include name="user_validate_dashboardpage"/>
           <include name="setUpFlushed"/>
+          <include name="afterMethod"/>
+          <include name="startApplication"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
           <include name="setUpReport"/>
         </methods>
-      </class> <!-- com.adminarea.testcase.LoginPageTestCases -->
+      </class> <!-- com.datadriven.testing.LoginDataTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

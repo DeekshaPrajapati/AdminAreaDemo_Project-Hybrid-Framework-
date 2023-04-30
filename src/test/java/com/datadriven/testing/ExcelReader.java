@@ -1,4 +1,4 @@
-package com.adminarea.utility;
+package com.datadriven.testing;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -12,16 +12,16 @@ import java.io.IOException;
 	public class ExcelReader {
 
 	    public static String[][] readExcel() {
-	        String[][] data =null;// store excel row datas
+	        String[][] data =null;// store excel row data
 	        try {
-	            FileInputStream fileIn = new FileInputStream(System.getProperty("user.dir")+"//TestData//ContactUs.xlsx");
+	            FileInputStream fileIn = new FileInputStream(System.getProperty("user.dir")+"//TestData//LoginData.xlsx");
 	            XSSFWorkbook wb = new XSSFWorkbook(fileIn);
 	            XSSFSheet sheet = wb.getSheetAt(0);
-	            // total count row and colmn , for for loop
+	          
 	            int rowcount = sheet.getPhysicalNumberOfRows();
-	            // row main kitnay colmn
+	            
 	            int colmn = sheet.getRow(0).getLastCellNum();
-	          data= new String[rowcount - 1][colmn];// aviod hearder  row -1
+	          data= new String[rowcount - 1][colmn];
 	            for (int i = 0; i < rowcount - 1; i++) {
 
 	                for (int j = 0; j < colmn; j++) {
